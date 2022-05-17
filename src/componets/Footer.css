@@ -1,0 +1,24 @@
+.main-footer {
+    color: #6809e1;
+    background-color:white;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .main-footerDark {
+    color: white;
+    background-color:black;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .line{
+    color: #6809e1;
+  }
+  .foot{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid #6809e1
+  }

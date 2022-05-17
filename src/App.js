@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import './App.css';
 import Header  from './componets/Header.jsx'
 import Characters  from './componets/Characters'
+import Footer from './componets/Footer'
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <div className="App">
       <Header onClick={handleClick} darkMode={darkMode}/>
       <Characters darkMode={darkMode}/>
-      <h1>Hola Mundo</h1>
+      <Footer darkMode={darkMode}/>
     </div>
   );
 }
