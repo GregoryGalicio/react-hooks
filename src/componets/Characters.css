@@ -1,5 +1,5 @@
 .characters{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items:center;
@@ -7,7 +7,7 @@
     background-color:lightgrey;
 }
 .charactersDark{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items:center;
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: flex-end;
     align-items:center ;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 550px;
     height: 250px;
     border-radius: 20px;
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: flex-end;
     align-items:center ;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 550px;
     height: 250px;
     border-radius: 20px;
@@ -50,7 +50,7 @@
     justify-content: center;
     line-height: 5px;
     font-size: 10px;
-    border:1px solid blue;
+    /* border:1px solid blue; */
     color:white;
     padding-right:15px;
 }
