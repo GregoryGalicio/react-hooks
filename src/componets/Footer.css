@@ -25,9 +25,16 @@
   }
   .line{
     color: #6809e1;
+   
   }
   .foot{
     padding-top: 10px;
     padding-bottom: 20px;
-    border-top: 1px solid #6809e1
+    border-top: 1px solid white;
   }
+  .footDark{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid #6809e1;
+  }
+

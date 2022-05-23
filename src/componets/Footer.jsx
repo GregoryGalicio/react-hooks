@@ -8,7 +8,7 @@ const Footer = ({darkMode}) => {
         <div className="row"></div>
        
         <div className="row">
-          <p className="foot">
+          <p className={darkMode?"footDark":"foot"} >
             &copy;{new Date().getFullYear()} Design by Gregory Galicio | Todos los
             derechos reservados |
           </p>
