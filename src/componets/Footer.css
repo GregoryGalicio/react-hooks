@@ -4,8 +4,8 @@
     /* padding-top: 1em; */
     position: relative;
     width: 100%;
-    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
-    background-image: linear-gradient(0deg, #ffffff 0%, #6809e1 110%);
+    clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
+    background-image: linear-gradient(0deg, #ffffff 0%, #6809e1 100%);
     padding-top: 5%; 
     margin-top: -7.5%;
    
@@ -18,7 +18,7 @@
     position: relative;
     
     width: 100%;
-    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 35%, 100% 0, 100% 100%, 0% 100%);
     background-image: linear-gradient(0deg, #000000 0%, #3b0b7b 100%);
     padding-top: 5%; 
     margin-top: -7.5%;
