@@ -14,7 +14,7 @@ function App() {
     }
 
   return (
-    <div className="App">
+    <div className={`${darkMode?"AppDark":"App"}`}>
       <Header onClick={handleClick} darkMode={darkMode}/>
       <Characters darkMode={darkMode}/>
       <Footer darkMode={darkMode}/>
