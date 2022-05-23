@@ -1,5 +1,5 @@
 .characters{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items:center;
@@ -12,7 +12,7 @@
     padding-bottom: 7.5%;   
 }
 .charactersDark{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items:center;
