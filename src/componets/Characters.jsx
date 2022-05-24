@@ -23,7 +23,9 @@ const Characters = ({darkMode}) => {
                         <h3>First seen in:</h3>
                         <h2>{character.location.name}</h2>
                     </div>
+                    <a href={`https://rickandmortyapi.com/api/character/avatar/${character.id}.jpeg`} target="_blank">
                     <img className="imgCharacter" alt={character.img} src={character.image}/>
+                    </a>
                 </div>
                 
                 
