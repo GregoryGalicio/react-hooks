@@ -1,0 +1,55 @@
+.toggle{
+    height: 43px;
+    width: 148px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top:auto;
+    background-image: linear-gradient(aqua, skyblue);
+    position:relative;
+    cursor: pointer;
+}
+.toggleDark{
+    height: 43px;
+    width: 148px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-top:auto;
+    background-image: linear-gradient(midnightblue, rebeccapurple);
+    position:relative;
+    cursor: pointer;
+}
+.notch{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background:yellow;
+    position: absolute;
+    top: 1.5px;
+    left:1.5px;
+    box-shadow: 0 0 5px yellow;
+    z-index:1;
+}
+.shape{
+    position:absolute;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+.shape.sm{
+    height: 2.5px;
+    width: 35px;
+    top:50%;
+    left:35%;
+}
+.shape.md{
+    height: 5px;
+    width: 40px;
+    top:15%;
+    left:12%;
+    z-index: 2;
+}
+.shape.lg{
+    height: 8px;
+    width: 55px;
+    bottom:5px;
+    left:12%;
+}
