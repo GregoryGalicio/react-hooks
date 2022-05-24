@@ -3,15 +3,15 @@ import "./Toggle.css";
 
 const Toggle = ({onClick,darkMode}) => {
     return (
-        <div className={`${darkMode?"toggleDark":"toggle"}`} onClick={onClick}>
-            <div className='notch'></div>
+        <button className={`${darkMode?"toggleDark":"toggle"}`} onClick={onClick}>
+            <div className={`${darkMode?"notchDark":"notch"}`}></div>
             <div>
-                <div className='shape sm'></div>
-                <div className='shape sm'></div>
-                <div className='shape md'></div>
-                <div className='shape lg'></div>
+                <div className={`${darkMode?"shapeDark sm":"shape sm"}`}></div>
+                <div className={`${darkMode?"shapeDark sm":"shape sm "}`}></div>
+                <div className={`${darkMode?"shapeDark md":"shape md"}`}></div>
+                <div className={`${darkMode?"shapeDark lg":"shape lg"}`}></div>
             </div>
-        </div>
+        </button>
     );
 }
 

@@ -27,7 +27,7 @@
 }
 
 .dark:hover {
-    background-color: #6809E1;
+  background-image: linear-gradient(midnightblue, rebeccapurple);
     border: none;
     cursor: pointer;
 }
@@ -42,7 +42,7 @@
     margin:20px;
 }
 .light:hover {
-    background-color: rgb(80, 227, 194);
+    background-image: linear-gradient(rgb(80, 227, 194), rgb(48, 167, 214));
     border: none;
     cursor: pointer;
 }
